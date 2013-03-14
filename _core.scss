@@ -13,12 +13,27 @@
 $sans-serif: "Helvetica Neue", Helvetica, sans-serif;
 
 /* ------------------------------------------ *
+ * overiding declarations
+ * ------------------------------------------ */
+
+* { padding: 0; margin: 0; }
+
+body { font-size: 100%; }
+
+
+/* ---------------------------------------------------------- *
  * typography
  *
  * modular scale
  * 16px @ 1:1.618
- * ------------------------------------------ */
+ * http://modularscale.com/scale/?px1=16&px2=&ra1=1.618&ra2=0
+ * ---------------------------------------------------------- */
 
  h1, h2, h3, h4, h5, h6 { font-family: $sans-serif; }
+ h1 { font-size: 4.236em; line-height: 4.236em; }
+ h2 { font-size: 2.618em; line-height: 2.618em; }
+ h3 { font-size: 1.618em; line-height: 1.618em; }
+
+ p { font-size: 1em; line-height: 1.618em; }
 
  
