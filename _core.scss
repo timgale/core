@@ -36,4 +36,8 @@ body { font-size: 100%; }
 
  p { font-size: 1em; line-height: 1.618em; }
 
- 
+/* ------------------------------------------ *
+ * html5 elements
+ * ------------------------------------------ */
+
+header, hgroup, nav, section, article, aside, footer { display: block; }
