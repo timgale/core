@@ -31,11 +31,20 @@ body { font-size: 100%; padding: 1.618em; }
  * ---------------------------------------------------------- */
 
 h1, h2, h3, h4, h5, h6 { font-family: $sans-serif; }
-h1 { font-size: 2.618em; line-height: 2.618em; padding: 0 0 1em 0; }
-h2 { font-size: 1.618em; line-height: 2.618em; padding: 0 0 1em 0; }
-h3 { font-size: 1em; line-height: 1.618em; padding: 0 0 1em 0; }
+h1 { font-size: 2.618em; /*line-height: 2.618em;*/ padding: 0 0 1em 0; }
+h2 { font-size: 1.618em; /*line-height: 2.618em;*/ padding: 0 0 1.618em 0; }
+h3 { font-size: 1em; /*line-height: 1.618em;*/ padding: 0 0 1.618em 0; }
 
-p { font-size: 1em; line-height: 1.618em; }
+p { font-family: $sans-serif; font-size: 1em; line-height: 1.618em; }
+
+a { text-decoration: none; }
+
+/* ------------------------------------------ *
+ * lists
+ * ------------------------------------------ */
+
+ul { padding: 0 0 0 1em; margin: 0 0 1.618em 0; }
+li { font-family: $sans-serif; margin: 0 0 .5em 0; }
 
 /* ------------------------------------------ *
  * media elements
