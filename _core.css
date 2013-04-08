@@ -17,7 +17,7 @@
 
 body {
   font-size: 100%;
-  padding: 1.618em; }
+  /*padding: 1.618em;*/ }
 
 /* ---------------------------------------------------------- *
  * typography
@@ -37,7 +37,7 @@ h1 {
 h2 {
   font-size: 1.618em;
   /*line-height: 2.618em;*/
-  padding: 0 0 1.618em 0; }
+  padding: 0 0 1em 0; }
 
 h3 {
   font-size: 1em;
@@ -47,17 +47,16 @@ h3 {
 p {
   font-family: "Helvetica Neue", Helvetica, sans-serif;
   font-size: 1em;
-  line-height: 1.618em; }
+  line-height: 1.618em;
+  padding: 0 0 1.618em 0; }
 
-a {
-  text-decoration: none; }
-
+/*a { text-decoration: none; }*/
 /* ------------------------------------------ *
  * lists
  * ------------------------------------------ */
 ul {
   padding: 0 0 0 1em;
-  margin: 0 0 1.618em 0; }
+  margin: 0; }
 
 li {
   font-family: "Helvetica Neue", Helvetica, sans-serif;
@@ -74,3 +73,17 @@ img {
  * ------------------------------------------ */
 header, hgroup, nav, section, article, aside, footer {
   display: block; }
+
+/* ------------------------------------------ *
+ * clearfix
+ * ------------------------------------------ */
+.cf {
+  display: inline-block; }
+
+.cf:after {
+  visibility: hidden;
+  display: block;
+  content: '';
+  font-size: 0;
+  clear: both;
+  height: 0; }
